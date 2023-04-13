@@ -1,0 +1,11 @@
+<p>jobpost works!</p>
+<div>
+    <h1>Post a Job</h1>
+    <form>
+    <label for="title">Title:</label>
+    <input type="text" name="title" [(ngModel)]="title">
+    <label for="description">Description:</label>
+    <textarea name="description" [(ngModel)]="description"></textarea>
+    <button (click)="postJob()">Post Job</button>
+    </form>
+    </div>
