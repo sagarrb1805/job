@@ -1,38 +1,104 @@
 <div>
-    <div>
-     <h2>Login Here</h2>
-      <form>
-        <div>
-          <label for="email">Email:</label>
-          <input  required  type="text"><br>
-          <label for="password">Password:</label>
-          <input  type="password"><br>
-        </div>
-        <button>Submit</button><br>
-        <span>Don't have an account? 
-        <a routerLink="/signUp">signUp</a></span>
-      </form>
+<h1>Welcome </h1>
+    
+<h3>Login</h3>
+    
+<form>
+    
+<div>
+    
+<label for="Name">Name:</label>
+    
+<input type="text">
+    
+<br>
+    
+<br>
+    
+<label for="email">Email:</label>
+    
+<input required type="text">
+    
+<br>
+    
+<br>
+    
+<label for="password">Password:</label>
+    
+<input type="password">
+    
+<br>
+    
+<br>
+    
     </div>
-    <div>
-        <div>
-              <h3>Create An Account</h3>
-               <form [formGroup]="userForm">
-                 <div>
-                   <label for="email">Email</label>
-                   <input  required formControlName="'email" type="text"><br>
-                   <label for="password">Password</label>
-                   <input  type="password"><br>
-                   <label for="name">Name:</label>
-                   <input type="text"><br>
-                   <select name="role">
-                    <option value="candidate">Candidate</option>
-                    <option value="employer">Employer</option>
-                   </select>
-                 </div>
-                 <button (click)="register()">Submit</button>
-                 <span>Already have an account? 
-                 <a>signUp</a></span>
-               </form>
-           </div>
+    
+<button>Submit</button>
+    
+<br>
+    
+<br>
+    
+<a routerLink="/signUp">signup</a></form>
+    
     </div>
-  </div>
+    
+<h3>Register</h3>
+    
+<form>
+    
+<div>
+    
+<label for="Name">Name:</label>
+    
+<input type="text">
+    
+    
+<label for="Name">  Last Name:</label>
+    
+<input type="text">
+    
+<br>
+    
+<br>
+    
+<label for="email">Email:</label>
+    
+<input required type="text">
+    
+<br>
+    
+<br>
+    
+<label for="password">Password:</label>
+    
+<input type="password">
+    
+<br>
+    
+<br>
+    
+<label for="role">Role:</label>
+    
+<select name="role">
+    
+     <option value="employer">Employer</option>
+    
+     <option value="candidate">Candidate</option>
+    
+</select>
+    
+<br>
+    
+<br>
+    
+    
+    
+    
+</div>
+    
+<button>Submit</button>
+    
+<br>
+    
+<br>
